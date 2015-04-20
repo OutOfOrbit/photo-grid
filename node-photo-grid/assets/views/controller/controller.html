@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO photo</title>
+    <link rel="stylesheet" type="text/css" href="./views/controller/controller.css">
+  </head>
+  <body>
+	  <div id="container">
+		<div id="instructions">
+			<!-- img src="/assets/app/image-input/fadedArrowUp@2x.png" id="arrow" />  -->
+			<label for="textfield" id="label">Swipe up to send the photo to the screen.</label>
+		</div>
+
+		<img src="/views/controller/cameraBtn@2x.png" id="cameraBtn" />
+		<button id="sendBtn">Send</button>
+	</div>
+
+	<input type="file" accept="image/*" id="inputControls" capture="camera"> 
+
+	<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="/views/controller/exif.js"></script>
+	<script src="/views/controller/controller.js"></script>
+
+  </body>
+</html>

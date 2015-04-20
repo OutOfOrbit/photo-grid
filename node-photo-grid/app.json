@@ -1,0 +1,7 @@
+{
+  "name": "Node photo grid",
+  "description": "A photo grid with image upload",
+  "repository": "https://github.com/heroku/node-js-getting-started",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}

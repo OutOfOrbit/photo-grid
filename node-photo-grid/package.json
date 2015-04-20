@@ -1,0 +1,27 @@
+{
+  "name": "node-photo-grid",
+  "version": "0.1.3",
+  "description": "A photo grid with image upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x",
+    "socket.io": "^1.3.5",
+    "socket.io-client": "^1.3.5"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://OutOFOrbit@bitbucket.org/OutOFOrbit/node-photo-grid.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}

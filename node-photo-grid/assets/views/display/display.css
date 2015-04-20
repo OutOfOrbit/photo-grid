@@ -1,0 +1,35 @@
+#photo-grid-container{
+    width: 1920px;
+    height: 1080px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+}
+
+ul#photo-grid {
+  width: 1920px;
+  height: 960px;
+  position: absolute;
+  left: 0px;
+  top: 60px;
+  margin: 0px;
+  padding: 0px;
+  transform-style: preserve-3d;
+  background-color: #ccc;
+}
+
+li.photo-grid-item {
+  display: block;
+  width: 192px;
+  height: 192px;
+  float: left;
+  color: white;
+  
+}
+
+.photo{
+  width: 192px;
+  height: 192px;
+  
+}
+
+

@@ -1,0 +1,198 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" type="text/css" href="./views/display/display.css">
+  </head>
+  <body>
+    <div id="photo-grid-container">
+  <ul id="photo-grid">
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-1" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-2"/>
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-3"/>
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-4" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-5" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-6" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-7" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-8" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-9" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-10" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-11" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-12" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-13" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-14" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-15" />
+      </li>
+          <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-16" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-17" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-18" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-19" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-20" />
+      </li>
+            <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-21" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-22" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-23" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-24" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-25" />
+      </li>
+          <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-26" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-27" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-28" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-29" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-30" />
+      </li>
+         </li>
+          <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-31" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-32" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-33" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-34" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-35" />
+      </li>
+            <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-36" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-37" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-38" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-39" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-40" />
+      </li>
+          <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-41" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-42" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-43" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-44" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-45" />
+      </li>
+      </li>
+          <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-46" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-47" />
+      </li>
+
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-48" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-49" />
+      </li>
+      <li class="photo-grid-item">
+              <img class="photo" src="./views/display/grid-images/gridPhoto.png" id="grid-photo-50" />
+      </li>
+  </ul>
+</div>
+
+
+
+    <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="/views/display/display.js"></script>
+  </body>
+</html>
